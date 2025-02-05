@@ -1,10 +1,14 @@
 header{
     text-align: center;
 }
+header img{
+    width: 175px;
+}
 .giallo{
     background-color: rgba(235, 242, 158, 0.866);
     margin: 0;
     padding: 15px;
+    color: rgb(56, 56, 202);
 }
 header hr{
     background-color: rgba(210, 216, 141, 0.866);
@@ -20,21 +24,36 @@ main{
     margin-right: auto;
    
 }
+video{
+    max-width: 100%;
+}
 #ff{
     text-align: center;
+
     
 }
-#ff img{
-    max-width: 100%;
-    height: auto;
+
+#ff h5{
+    color: gray;
+    font-weight: normal;
 }
+
+
 
 .aa p{
     color: red;
+    border-left: 2px solid rgb(242, 163, 7);
+    padding-left: 20px;
 }
 .aa ul{
 list-style-type: none;
-padding: 0;    
+padding: 0;
+margin-top: 0; 
+border-left: 2px solid rgb(242, 163, 7);
+padding-left: 20px;
+}
+.aa p{
+    margin-bottom: 0;
 }
 .pr hr{
     background-color: aqua;
@@ -48,6 +67,7 @@ padding: 0;
 }
 .pr #dd{
     list-style-type: none;
-    padding top: 10px;
-
-}
+    }
+    #dd{
+        padding-top: 20px;
+    }
