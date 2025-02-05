@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+.giallo{
+    background-color: rgba(235, 242, 158, 0.866);
+    margin: 0;
+    padding: 15px;
+}
+header hr{
+    background-color: rgba(210, 216, 141, 0.866);
+    border: none;
+    height: 2px;
+    margin: 0px;
+}
+
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#ff{
+    text-align: center;
+    padding: 10px;
+}
+#ff img{
+    max-width: 100%;
+    height: auto;
+}
+main #copy{
+    color: antiquewhite;
+}
