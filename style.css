@@ -15,18 +15,39 @@ header hr{
 
 
 main{
+     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+   
 }
 #ff{
     text-align: center;
-    padding: 10px;
+    
 }
 #ff img{
     max-width: 100%;
     height: auto;
 }
-main #copy{
-    color: antiquewhite;
+
+.aa p{
+    color: red;
+}
+.aa ul{
+list-style-type: none;
+padding: 0;    
+}
+.pr hr{
+    background-color: aqua;
+    border: none;
+    height: 1px;
+    margin: 0px;
+}
+.pr h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.pr #dd{
+    list-style-type: none;
+    padding top: 10px;
+
 }
